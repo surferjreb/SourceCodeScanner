@@ -1,9 +1,10 @@
 public class Driver {
 
     public static void main(String[] args){
-        String myfile = "//home//captdread//JavaProgramming//SourceCodeScanner//Main.java";
+        String myFile = "//home//captdread//JavaProgramming//SourceCodeScanner//Main.java";
+        Controller myController = new Controller(myFile);
 
-        FileReader myReader = new FileReader(myfile);
-        myReader.readFile();
+        myController.startController();
+
     }
 }
